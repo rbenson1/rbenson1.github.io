@@ -1,0 +1,221 @@
+/*#7B0000 - Maroon
+ #401916 - Wine
+ #68736F - Dark Grey
+ #D7D9D8 - Off White
+ #C70000 - Red
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+
+@import url('https://fonts.googleapis.com/css?family=Niconne');
+
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Niconne', cursive;
+    color: #C70000;
+    font-size: 4.5rem;
+    text-shadow: 1px 1px 5px #888888, 2px 2px 5px #777777;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+a {
+    color: #7B0000;
+}
+
+a:hover {
+    color: #000000;
+}
+
+.home-links {
+    color: #000000;
+    background: linear-gradient(#401916, #7B0000, #401916);
+    padding: 8px;
+    border-radius: .25em;
+}
+
+.home-links:hover {
+    color: #808080;
+}
+
+.hr1 {
+    border: 4px solid #c70000;
+    margin: 2px !important;
+}
+
+.hr2 {
+    border: 3px solid #000000;
+    color: #000000;
+    margin: 2px !important;
+}
+
+.navbar {
+    background-color: #000000;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, .45);
+}
+
+.nav-item {
+    font-size: 1.25rem;
+}
+
+.navbar-brand {
+    color: #c70000;
+    font-size: 3.25rem;
+    text-shadow: 1px 1px 5px #ffffff, 2px 2px 5px #777777;
+    font-family: 'Niconne', cursive;
+}
+
+.navbar-brand:hover {
+    color: #ffffff;
+    text-shadow: 1px 1px 5px #c70000, 2px 2px 2px #d40000;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #c70000;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(199,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.primary-nav {
+    background-color: #000000;
+}
+
+.nav-item a {
+    color: #c70000;
+}
+
+.nav-item a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.nav-link.active {
+    color: #ffffff !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .nav-item:hover {
+        color: #ffffff;
+        background-color: #c70000;
+        padding-left: 5px;
+        font-size: 1.5rem;
+    }
+}
+
+.dg-bg {
+    background-color: #68736F;
+    margin: 0;
+    width: 100%;
+
+}
+
+.black-bg {
+    background-color: #000000;
+}
+
+.white-bg {
+    background-color: #ffffff;
+}
+
+.off_white-bg {
+    background-color: #D7D9D8;
+}
+
+.red-text {
+    color: #C70000;
+}
+
+.wine-text {
+    color: #401916;
+}
+
+.maroon-text {
+    color: #7B0000;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.grey-text {
+    color: #68736F
+}
+
+.scrollImages {
+    cursor: pointer;
+}
+
+.container-fluid {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.home {
+    font-size: 10rem;
+}
+
+.jumbotron {
+    background-color: #000000;
+}
+
+
+.hero-bkg-animated {
+    background: black url(../images/bg3-50per.png) repeat 0 0;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    height: 300px;
+    padding-top: 120px;
+    box-sizing: border-box;
+    -webkit-animation: slide 20s linear infinite;
+}
+
+
+
+@-webkit-keyframes slide {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -2900px 0;
+    }
+}
+
+
+.parallax {
+    /* The image used */
+    background-color: #000000;
+    background-image: url("../images/projects_bg.gif");
+
+    opacity: .35;
+
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -10px;
+}
+
+.para-head {
+    position: absolute;
+    top: 40%;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+}
