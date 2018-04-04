@@ -219,3 +219,30 @@ a:hover {
     background-color: rgba(0, 0, 0, .5);
     width: 100%;
 }
+
+.btn {
+    background: #c70000;
+
+    background: linear-gradient(#c70000, #7b0000);
+    /*
+    background-image: -webkit-linear-gradient(top, #c70000, #7b0000);
+    background-image: -moz-linear-gradient(top, #c70000, #7b0000);
+    background-image: -ms-linear-gradient(top, #c70000, #7b0000);
+    background-image: -o-linear-gradient(top, #c70000, #7b0000);
+    background-image: linear-gradient(to bottom, #c70000, #7b0000);
+*/
+    border-color: #C70000;
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    background: rgba(0, 0, 0, 0);
+    border-color: #C70000;
+    color: #C70000;
+}
+
+.formInput {
+    border: 2px solid #C70000;
+    padding: 8px;
+    margin: 2px;
+}
