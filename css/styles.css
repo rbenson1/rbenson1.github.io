@@ -56,6 +56,10 @@ a:hover {
     margin: 2px !important;
 }
 
+.row {
+    margin-right: 0px;
+}
+
 .navbar {
     background-color: #000000;
     margin: 0;
@@ -216,8 +220,10 @@ a:hover {
 .para-head {
     position: absolute;
     top: 40%;
+    left: 0;
+    right: 0;
+    margin: auto;
     background-color: rgba(0, 0, 0, .5);
-    width: 100%;
 }
 
 .btn {
