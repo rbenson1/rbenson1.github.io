@@ -19,7 +19,7 @@ var em4 = "<img class='img-fluid' src='images/emLab/EM_Lab04.jpg'>";
 
 //The Name of This Game is Classified Pictures
 
-var clas1 = " <div class='embed-responsive embed-responsive-16by9'> <iframe class = 'embed-responsive-video' src='https://www.youtube.com/embed/wyPHpSjWBcs' frameborder = '0' allow = 'autopla'; encrypted - media ' allowfullscreen></iframe> < /div > ";
+var clas1 = " <div class='embed-responsive embed-responsive-16by9'> <iframe class = 'embed-responsive-video' src='https://www.youtube.com/embed/wyPHpSjWBcs' frameborder = '0' allow = 'autoplay'; encrypted - media ' allowfullscreen></iframe> < /div > ";
 
 var clas2 = "<img class='img-fluid' src='images/tnotgic/notebook.png' alt='3D modeled table with beakers'>";
 
@@ -27,8 +27,14 @@ var clas3 = "<img class='img-fluid' src='images/tnotgic/puzzle1.png'>";
 
 var clas4 = " <img class='img-fluid' src='images/tnotgic/painting.png'>";
 
+//Hover Effect 
+var elements = document.getElementsByClassName('img-active');
 
-function imgSwitch(elementId, slideNum) {
+
+function imgSwitch(elementId, slideNum, slideID) {
     document.getElementById(elementId).innerHTML = slideNum;
-
+    while (elements.length > 0) {
+        elements[0].classList.remove('img-active');
+    }
+    document.getElementById(slideID).classList.toggle('img-active');
 }

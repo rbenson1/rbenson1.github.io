@@ -35,14 +35,15 @@ a:hover {
 }
 
 .home-links {
-    color: #000000;
+    color: #888888;
     background: linear-gradient(#401916, #7B0000, #401916);
     padding: 8px;
     border-radius: .25em;
 }
 
 .home-links:hover {
-    color: #808080;
+    color: #FFFFFF;
+
 }
 
 .hr1 {
@@ -230,13 +231,7 @@ a:hover {
     background: #c70000;
 
     background: linear-gradient(#c70000, #7b0000);
-    /*
-    background-image: -webkit-linear-gradient(top, #c70000, #7b0000);
-    background-image: -moz-linear-gradient(top, #c70000, #7b0000);
-    background-image: -ms-linear-gradient(top, #c70000, #7b0000);
-    background-image: -o-linear-gradient(top, #c70000, #7b0000);
-    background-image: linear-gradient(to bottom, #c70000, #7b0000);
-*/
+
     border-color: #C70000;
     color: #FFFFFF;
 }
@@ -251,4 +246,14 @@ a:hover {
     border: 2px solid #C70000;
     padding: 8px;
     margin: 2px;
+}
+
+.scrollImages {}
+
+.img-active {
+    box-shadow: 1px 1px 2px black, 0 0 25px #c70000, 0 0 5px #7B0000;
+}
+
+.formMessage {
+    height: 150%;
 }
