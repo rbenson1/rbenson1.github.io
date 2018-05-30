@@ -27,6 +27,32 @@ var clas3 = "<img class='img-fluid' src='images/tnotgic/puzzle1.png'>";
 
 var clas4 = " <img class='img-fluid' src='images/tnotgic/painting.png'>";
 
+//The Time Between Us Pictures
+
+var ttbu1 = "<div class='embed-responsive embed-responsive-16by9'><iframe width='560' height='315' src='https://www.youtube.com/embed/4udyK4UjHOM' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div>";
+
+var ttbu2 = "<img class='img-fluid' src='images/ttbu/Ora.png'>";
+
+var ttbu3 = "<img class='img-fluid' src='images/ttbu/workbench.png'>";
+
+var ttbu4 = "<img class='img-fluid' src='images/ttbu/workbench_end.png'>";
+
+//Toon Shading Pictures
+
+var toon1 = "<div class='embed-responsive embed-responsive-16by9'><iframe width='560' height='315' src='https://www.youtube.com/embed/zZavYmp3A9Q' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div>";
+
+var toon2 = "<img class='img-fluid' src='images/toonRoom/Desk.jpg'>";
+
+var toon3 = "<img class='img-fluid' src='images/toonRoom/Shelf_Zoom.jpg'>";
+
+var toon4 = "<img class='img-fluid' src='images/toonRoom/Door.jpg'>";
+
+var toon5 = "<img class='img-fluid' src='images/toonRoom/Shelf_Wide.jpg'>";
+
+var toon6 = "<img class='img-fluid' src='images/toonRoom/Bed.jpg'>";
+
+var toon7 = "<img class='img-fluid' src='images/toonRoom/Chair.jpg'>";
+
 //Hover Effect 
 var elements = document.getElementsByClassName('img-active');
 
