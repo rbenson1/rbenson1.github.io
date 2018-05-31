@@ -37,6 +37,12 @@ var ttbu3 = "<img class='img-fluid' src='images/ttbu/workbench.png'>";
 
 var ttbu4 = "<img class='img-fluid' src='images/ttbu/workbench_end.png'>";
 
+var ttbu5 = "<img class='img-fluid' src='images/ttbu/gauntlet.gif'>";
+
+var ttbu6 = "<img class='img-fluid' src='images/ttbu/Ora_Wings.gif'>";
+
+var ttbu7 = "<img class='img-fluid' src='images/ttbu/Gauntlet_Blueprint.jpg'>";
+
 //Toon Shading Pictures
 
 var toon1 = "<div class='embed-responsive embed-responsive-16by9'><iframe width='560' height='315' src='https://www.youtube.com/embed/zZavYmp3A9Q' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div>";

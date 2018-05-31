@@ -18,7 +18,10 @@
     <!-- Bootstrap CSS and JS/jQ -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- My Project CSS and JS -->
+    <!--    Font Awesome-->
+    Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- My CSS and JS -->
 
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/script.js"></script>
@@ -199,7 +202,7 @@
                     </div>
                 </div>
             </div>
-            <!--Number 2-->
+            <!--Number 4-->
             <div class="white-bg">
                 <div class="row pt-2">
                     <div class="col-12 red-text pl-4">
@@ -227,7 +230,7 @@
                             </div>
                         </div>
                         <div class="row mb-4 scrollmenu">
-                            <div onclick="imgSwitch('ttbuPics', ttbu1, 'ttbuID') " class="col-3">
+                            <div onclick="imgSwitch('ttbuPics', ttbu1, 'ttbu1ID') " class="col-3">
                                 <img class="img-fluid scrollImages" id="ttbu1ID" src="images/ttbu/thumbnail.png">
                             </div>
                             <div onclick="imgSwitch('ttbuPics', ttbu2, 'ttbu2ID') " class="col-3"><img class="img-fluid scrollImages" src="images/ttbu/Ora.png" id="ttbu2ID">
@@ -239,9 +242,21 @@
                                 <img class="img-fluid scrollImages" id="ttbu4ID" src="images/ttbu/workbench_end.png">
                             </div>
                         </div>
+                        <div class="row mb-4">
+                            <div onclick="imgSwitch('ttbuPics', ttbu5, 'ttbu5ID') " class="col-3">
+                                <img class="img-fluid scrollImages" id="ttbu5ID" src="images/ttbu/gauntlet_thumb.jpeg">
+                            </div>
+                            <div onclick="imgSwitch('ttbuPics', ttbu6, 'ttbu6ID') " class="col-3">
+                                <img class="img-fluid scrollImages" id="ttbu6ID" src="images/ttbu/Ora_Wings_Thumb.jpeg">
+                            </div>
+                            <div onclick="imgSwitch('ttbuPics', ttbu7, 'ttbu7ID') " class="col-3">
+                                <img class="img-fluid scrollImages" id="ttbu7ID" src="images/ttbu/Gauntlet_Blueprint.jpg">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <!-- Number 5-->
             <div class="off_white-bg">
                 <div class="row">
                     <div class="col-12 red-text pl-4">
@@ -290,11 +305,14 @@
                     </div>
                     <div class="col-6 red-text">
                         <h4>What is it?</h4>
-                        <p>For my final for 3D animation class, I modeled and shaded a room in Maya. I modeled all of the elments in the room and shaded it using toon shading in Maya as well as created an animation of the curtain and fire.</p>
+                        <p>For my final for 3D animation class, I modeled and shaded a room in Maya. I modeled all of the elements in the room and shaded it using toon shading in Maya as well as created an animation of the curtain and fire.</p>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!--        End Desktop View-->
+
         <div class="d-block d-sm-none off_white-bg">
             <div class="row">
                 <div class="col-12 red-text text-center">
@@ -356,7 +374,7 @@
                 </div>
                 <div class="row mt-1">
                     <div onclick="imgSwitch('infinityLabPics2', il1, 'il1IDmobile') " class="col-3">
-                        <img class="img-fluid scrollImages" id="il1ID" src="images/infinityLab/VideoImage.jpg" alt="motherfucker">
+                        <img class="img-fluid scrollImages" id="il1ID" src="images/infinityLab/VideoImage.jpg">
                     </div>
                     <div onclick="imgSwitch('infinityLabPics2', il2, 'il2IDmobile') " class="col-3"><img class="img-fluid scrollImages" src="images/infinityLab/Table.jpg" id="il2IDmobile" alt="3D modeled table with beakers">
                     </div>
@@ -418,8 +436,63 @@
         </div>
 
 
-        <div class="footer navbar-fixed-bottom black-bg text-center grey-text">
-            <h5>rebecca.e.benson1@gmail.com</h5>
+        <div class="footer navbar-fixed-bottom black-bg text-center maroon-text">
+            <!-- Button trigger modal -->
+            <i class="fas fa-envelope buttonTrick mr-1" data-toggle="modal" data-target="#exampleModal">
+  
+</i>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="col-12">
+                                <form method="POST" action="https://formspree.io/rebecca.e.benson1@gmail.com">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <input class="formInput w-100" type="text" name="firstName" placeholder="First Name">
+                                        </div>
+                                        <div class="col-6">
+                                            <input class="formInput w-100" type="text" name="lastName" placeholder="Last Name">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <input class="formInput w-100" type="email" name="email" placeholder="Email">
+
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-12">
+                                            <textarea class="formMessage formInput w-100" name="message" placeholder="Message"></textarea>
+
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-12 ">
+                                            <button class="btn mt-3 w-25" type="submit">Send</button>
+
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="https://www.linkedin.com/pub/rebecca-benson/a7/272/6a1"> <i class="fab fa-linkedin-in ml-1"></i></a>
         </div>
     </div>
     <!--Container-->
