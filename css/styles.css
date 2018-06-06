@@ -257,3 +257,8 @@ a:hover {
 .formMessage {
     height: 150%;
 }
+
+i:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
